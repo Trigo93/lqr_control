@@ -1,4 +1,4 @@
-é# 2D Car Simulator with LQR Control
+# 2D Car Simulator with LQR Control
 
 A Python-based 2D car simulator that demonstrates Linear Quadratic Regulator (LQR) control for autonomous vehicle motion. The simulator features real-time visualization using Pygame and includes state trajectory plotting.
 
@@ -27,20 +27,20 @@ pygame
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/car-simulator.git
+git clone https://github.com/Trigo93/lqr_control.git
 cd car-simulator
 ```
 
 2. Install the required packages:
 ```bash
-pip install numpy matplotlib control scipy pygame
+pip3 install numpy matplotlib control scipy pygame
 ```
 
 ## Usage
 
 Run the simulator using:
 ```bash
-python main.py
+python3 main.py
 ```
 
 The simulation will show:
@@ -75,7 +75,6 @@ You can modify the simulation parameters in `config.py`:
 - Time step and simulation duration
 - LQR weights (Q and R matrices)
 - Visualization settings (window size, car dimensions, colors)
-- Physical parameters (gravity)
 
 ## Contributing
 
