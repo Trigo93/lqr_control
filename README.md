@@ -2,8 +2,8 @@
 
 A Python-based 2D car simulator that demonstrates Linear Quadratic Regulator (LQR) control for autonomous vehicle motion. The simulator features real-time visualization using Pygame and includes state trajectory plotting.
 
-![](car_visu.png)
 ![](plots.png) 
+![](car_visu.png)
 
 ## Features
 
